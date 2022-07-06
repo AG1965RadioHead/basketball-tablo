@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Basketball Tablo</title>  
+      <link rel="stylesheet" href="tablo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content=
+              "width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="first-column">
+                <h3 class="first-row">HOME</h3>
+                <div class="second-row" id="home-count">
+                  0
+                </div>
+                <div class="third-row">
+                  <button class="buttons" onclick="increment1()">+1</button>
+                  <button class="buttons" onclick="increment2()">+2</button>
+                  <button class="buttons" onclick="increment3()">+3</button>
+                </div>
+            </div>
+            <div class="second-column">
+                <h3 class="first-row">GUEST</h3>
+                <div class="second-row" id="guest-count">
+                  0
+                </div>
+                <div class="third-row">
+                  <button class="buttons" onclick="incrementG1()">+1</button>
+                  <button class="buttons" onclick="incrementG2()">+2</button>
+                  <button class="buttons" onclick="incrementG3()">+3</button>
+                </div>
+
+            </div>
+        </div>
+        <script src="tablo.js"></script>
+    </body>
+</html>

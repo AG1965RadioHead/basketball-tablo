@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: CursedTimerUlil-Aznm;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 575px;
+  height: 385px;
+  background-color: #1B244A;
+}
+
+
+.first-row {
+  display: flex;
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  width: 149px;
+  height: 36px;
+  justify-content: center;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F94F6D;
+  border-radius: 5px;
+  width: 155px;
+  height: 120px;
+  font-family: CursedTimerUlil-Aznm;
+  font-size: 86px;
+  background-color: black;
+}
+
+.third-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  color: #9AABD8;
+  background-color: #1B244A;
+  margin-bottom: 25px;
+  width: 155px;
+  height: 45px;
+}
+
+.buttons {
+  color: #9AABD8;
+  font-size: 17px;
+  font-family: CursedTimerUlil-Aznm;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #9AABD8;
+  background-color: #1B244A;
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.buttons:active {
+  margin-left: 2px;
+  margin-top: 2px;
+}
