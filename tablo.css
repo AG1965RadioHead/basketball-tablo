@@ -79,7 +79,7 @@ body {
   margin-top: 2px;
 }
 
-#new-game-btn {
+.new-game-btn {
   position: absolute;
   width: 80px;
   height: 70px;
@@ -94,7 +94,7 @@ body {
   cursor: pointer;
 }
 
-#new-game-btn:active {
+.new-game-btn:active {
   margin-left: 2px;
   margin-top: 2px;
 }
