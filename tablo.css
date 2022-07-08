@@ -10,7 +10,7 @@ body {
 .container {
   display: flex;
   justify-content: space-evenly;
-
+  width: 655px;
   height: 385px;
   background-color: #1B244A;
 }
