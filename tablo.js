@@ -32,3 +32,10 @@ function incrementG3() {
   guestCount += 3
   countGuest.textContent = guestCount
 }
+
+function newgame() {
+  homeCount = 0
+  guestCount = 0
+  countHome.textContent = homeCount
+  countGuest.textContent = guestCount
+}

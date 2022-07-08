@@ -9,12 +9,20 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
-  width: 575px;
+  justify-content: space-evenly;
+
   height: 385px;
   background-color: #1B244A;
 }
 
+.second-column {
+  width: 55px;
+  height: 385px;
+}
+
+.button-column {
+  width: 80px;
+}
 
 .first-row {
   display: flex;
@@ -67,6 +75,26 @@ body {
 }
 
 .buttons:active {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+#new-game-btn {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  top: 242px;
+  color: #9AABD8;
+  font-size: 17px;
+  font-family: CursedTimerUlil-Aznm;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #9AABD8;
+  background-color: #1B244A;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#new-game-btn:active {
   margin-left: 2px;
   margin-top: 2px;
 }
